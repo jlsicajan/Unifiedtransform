@@ -1,0 +1,35 @@
+@keyframes spin { 
+	100% { 
+		transform: rotateZ(360deg); 
+	}
+}
+
+
+.square {
+	width: 50px;
+	height: 50px;
+	transform: rotate(30deg);
+	border: 1px solid #4ecef3;
+	box-shadow: 2px 2px 10px #9482ee;
+}
+
+
+.circle_animation {
+	border-radius: 50%;
+	border-style: dashed;
+	height: 100px;
+	width: 100px;
+	box-shadow: 0px 0px 10px #9482ee;
+	-webkit-animation:spin 3s linear infinite;
+	-moz-animation:spin 3s linear infinite;
+	animation:spin 3s linear infinite;
+}
+
+
+.border_red_color {
+	border-color: red;
+}
+
+.border_blue_color {
+	border-color: blue;
+}
